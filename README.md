@@ -43,15 +43,29 @@ Das Ampel-Icon wechselt je nach Auslastung: 🟢 unter 70 % · 🟡 70–89 % ·
 
 ---
 
-## Installation & Start
+## ⚡ Quick Start (nur 2 Befehle!)
 
-### 1. Dateien herunterladen
-
-Alle drei Dateien in denselben Ordner legen:
-
+```bash
+git clone https://github.com/chillikai/claude-usage-widget.git
+cd claude-usage-widget && bash install_and_run.sh
 ```
-claude_widget.py
-install_and_run.sh
+
+**Fertig!** Das Widget erscheint in ca. 15 Sekunden oben rechts in deiner Menüleiste. 🟡
+
+Für **Autostart beim Login** (optional):
+```bash
+bash setup_launchagent.sh
+```
+
+---
+
+## Installation & Start (Detailliert)
+
+### 1. Repository klonen
+
+```bash
+git clone https://github.com/chillikai/claude-usage-widget.git
+cd claude-usage-widget
 ```
 
 ### 2. Setup-Script ausführen
